@@ -449,6 +449,8 @@
     .steps__container{
       gap: 2rem;
       padding-top: 1rem;
+      padding: auto;
+      margin: auto;
     }
     
     .steps__title{
@@ -459,7 +461,9 @@
       background-color: var(--container-color);
       padding: 2.5rem 3rem 2rem 1.5rem;
       border-radius: 1rem;
-    }
+      margin-left: auto;
+      padding: auto;
+        }
     
     .steps__card-number{
       display: inline-block;
@@ -575,7 +579,7 @@
       }
       
       button:hover {
-        background: #7c7c7c6b;
+        background: #ff2c2c6b;
       }
       
       h1.temp {
