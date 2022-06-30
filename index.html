@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="style.css">
+
+        <title>UV App</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class='bx bx-circle nav__logo-icon'></i> UV App
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#uv" class="nav__link">UV Index</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skin" class="nav__link">Apply UV Filter</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#FAQs" class="nav__link">#FAQs</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="images/istockphoto-1209457306-170667a.jpeg" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            UV Detection App <br> to detect early sun damage
+                        </h1>
+                        <p class="home__description">
+                            With a goal of reducing the impact of sun damage on skin.
+                            and providing early detection of skin cancer via non invasive methods
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">In collaboration with Linode</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="images/istockphoto-936342386-170667a.jpeg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h4 class="section__title about__title">
+                            What is this UV app? <br> & what it does?
+                        </h4>
+
+                        <p class="about__description">
+                            Our free UV detetcion app takes away the guesswork by telling you when the UV is 3 
+                            and above with sun protection recommended for your location.
+
+                        </p>
+
+                        <div class="about__data">
+                            <h4 class="section__title about__title">
+                                Let's breakdown the features
+                            </h4>
+    
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                    
+                               UV index per location
+                            </p>
+
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                
+                                UV and sun protection alerts each day.
+
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                              By uploading live image and applying the filter, providing you with the minimum recommended sunscreen application, based on your choice of outfit. 
+                              Plus, a two-hour reminder so you don’t forget to top up.
+
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                              FAQS to guide you and your family at every step
+                            </p>
+
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                            Learn about skin cancer and it's prevention<i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+           
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                       Just in 3 steps, you will get to know when you do and when you don't need sun protection. 
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">UV data</h3>
+                            <p class="steps__card-description">
+                                Get real time UV index.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Skin protection</h3>
+                            <p class="steps__card-description">
+                               Get alert on sun protection and apply sunscreen.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">UV Filter</h3>
+                            <p class="steps__card-description">
+                                Use our UV filter to get the idea of skin situation at real time.
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+             <!--==================== STEPS ====================-->
+             <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        UV and sun protection  <br> alerts each day.
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title"></h3>
+                            <p class="steps__card-description">
+                                The sun’s ultraviolet (UV) radiation is the main cause of skin cancer.
+                            </p>
+
+                            <div class="card">
+                                <div class="search">
+                                  <input type="text" class="search-bar" placeholder="Search">
+                                  <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
+                                      width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                                      </path>
+                                    </svg></button>
+                                </div>
+                                <div class="weather loading">
+                                  <h2 class="city">Weather in Denver</h2>
+                                  <h1 class="temp">51°C</h1>
+                                  <div class="flex">
+                                    <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+                                    <div class="description">Cloudy</div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <div id="result"></div>
+                                  </div>
+                              
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Protection</h3>
+                            <p class="steps__card-description">
+                    
+                                Fortunately, most skin cancer can be prevented by using good sun protection when the UV is above 3.
+                            </p>
+                            <div class="card">
+                                <canvas id="c"> Upload your image in sunlight</canvas>
+                                <div class="search">
+                                  <input type="file"  id="infile" placeholder="Upload" onchange="handleFiles(this.files)">
+                                 <button id="uv" class="uv">UV-filter</button>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                <!--==================== Products ====================-->
+                <section class="product section container" id="products">
+                    <h2 class="section__title-center">
+                        How UV Index <br> Works?
+                    </h2>
+    
+                    <p class="product__description">
+                        UV radiation is the major cause of skin cancer. But if you can’t see or feel UV, how do you know when it is damaging?
+                    </p>
+    
+                    <div class="product__container grid">
+                        <article class="product__card">
+                            
+    
+                            <img src="images/download.png" alt="" class="product__img">
+    
+                            <h4 class="section__title about__title">UV Index Results</h4>
+                            <span class="product__price">
+                                <ul class='bx-ul'>
+                                <li><i class='bx bx-circle' style= "color:green; font-size:24px">1 - 2 Low</i></li>
+                                <li><i class='bx bx-circle' style= "color:rgb(255, 206, 8); font-size:24px">3 - 5 Medium</i></li>
+                                <li><i class='bx bx-circle' style= "color:rgb(255, 177, 8); font-size:24px">6 -7 High</i></li>
+                                <li><i class='bx bx-circle' style= "color:rgb(255, 90, 8); font-size:24px">8 - 10 Very High</i></li>
+                                <li><i class='bx bx-circle' style= "color:rgb(141, 0, 0); font-size:24px"> 11+ Extremely High</i></li>
+                                </ul>
+                                </span>
+    
+                        </article>
+                        </div>
+                        </section>
+    
+                        
+    
+                      
+                   
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                        What is <br> UV?
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                   Ultra Violet rays
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Ultraviolet (UV) radiation is a type of energy produced by the sun and some artificial sources, such as arc welders and solariums.
+
+                                    The sun’s UV is the main cause of skin cancer. Too much UV exposure also causes sunburn, tanning, premature ageing and eye damage.
+                                    
+                                    You can see the sun’s light. You can feel the sun’s heat. But you can’t see or feel the sun’s UV radiation. UV can reach you directly from the sun. It can also be reflected off different surfaces and scattered by particles in the air.
+                                    
+                                    Your senses cannot detect UV radiation, so you won’t notice it is all around you and you won’t notice any skin damage until it has been done.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    The UV Index
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    The World Health Organization's Global Solar UV Index measures UV levels on a scale from 0 (Low) to 11+ (Extreme). Sun protection is recommended when UV levels are 3 (Moderate) or higher.
+
+                                     The UV level is affected by a number of factors including the time of day, time of year, cloud cover, altitude, location and surrounding surfaces.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Why is the UV is so high in Australia?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Australia experiences some of the highest levels of UV in the world.
+
+                                    Different factors affect our UV levels including:
+                                    
+                                    location: UV levels are highest along the equator. Australia is near the equator so we experience high UV levels
+                                    time of year: our elliptical orbit around the sun and our axial tilt combine to ensure that we are closer to the sun in our summer than the northern hemisphere e.g. in summer the UK has UV Index 6–8, while Australia has UV Index 10–14
+                                    we have clear skies and less air pollution.
+                                     
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                              How does UV add up?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    UV damage is accumulative. Your skin remembers and records all the UV exposure over the years which contributes to your long-term risk of skin cancer. The more UV you’re exposed to, the greater your risk. That’s why it's important for outdoor workers 
+                                    to protect their skin all year round. Even low UV levels can be harmful when exposed for long periods.
+                                     
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Warning signs of sun damaged skin and skin cancer risk
+
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Spots, blemishes, freckles and moles, similar to those pictured above, are signs of sun-damaged skin. They are a warning sign your skin has had UV damage. If you notice them changing, see your doctor.  
+
+                                    The main cause of skin cancer is over exposure to UV radiation. You can reduce your risk by using sun protection during sun protection times.
+                                </p>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> via any of the given <br> information
+                        </h2>
+
+                       
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    zehra.nisar1989@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Send Message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="main.js"></script>
+    </body>
+</html>
