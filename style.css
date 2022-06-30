@@ -552,17 +552,15 @@
     .product__card:hover .product__img{
       transform: translateY(-.5rem);
     }
-
+/*----------------UV FILTER -------- */
     .card {
         padding: 5.5rem 0 1rem;
         background: #2a2626d0;
         color: white;
-        padding: 2em;
         border-radius: 30px;
         width: 100%;
         max-width: 320px;
-    
-        display:grid;
+        display: block;
         
       }
 
