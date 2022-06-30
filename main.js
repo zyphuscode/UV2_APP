@@ -27,6 +27,17 @@ function handleFiles(files) {
     img.src = window.URL.createObjectURL(files[0]);
   }
 }
+//doenload image
+function download() {
+  const image = canvas.toDataURL();
+  const link = document.createElement("a");
+  link.href = image;
+  link.download = "image.png";
+  link.click();
+}
+
+//6.
+document.querySelector("button").addEventListener("click", download);
 
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
