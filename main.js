@@ -27,7 +27,7 @@ function handleFiles(files) {
     img.src = window.URL.createObjectURL(files[0]);
   }
 }
-//doenload image
+//download image
 function download() {
   const image = canvas.toDataURL();
   const link = document.createElement("a");
