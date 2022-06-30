@@ -579,6 +579,15 @@
       button:hover {
         background: #ff2c2c6b;
       }
+
+      button{
+        text-align: center;
+        display: flex;
+        padding: 10px;
+        width: 50px;
+        height: 40px;
+
+      }
       
       h1.temp {
         margin: 0;
@@ -636,18 +645,7 @@
         justify-content: center;
       }
       
-      button {
-        margin: 0.5em;
-        border-radius: 50%;
-        border: none;
-        height: 44px;
-        width: 44px;
-        outline: none;
-        background: #7c7c7c2b;
-        color: white;
-        cursor: pointer;
-        transition: 0.2s ease-in-out;
-      }
+    
   
     /*=============== QUESTIONS ===============*/
   .questions{
