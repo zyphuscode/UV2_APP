@@ -37,7 +37,7 @@ function download() {
 }
 
 //6.
-document.querySelector("button").addEventListener("click", download);
+document.getElementById("download").addEventListener("click", download);
 
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
